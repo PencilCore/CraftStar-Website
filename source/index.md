@@ -26,3 +26,21 @@ CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
 2021 年 6 月 21 日，新成员加入工作室，CraftStar 工作室重新起航！
 
 {% endabout %}
+
+## 工作室成员介绍
+
+| 职位             | 负责人                                       |
+| :--------------- | :------------------------------------------- |
+| **工作室室长**   | [@Jack233\_](https://github.com/Jack233XD)   |
+| **工作室副室长** | @XO 小圣                                     |
+| **首席工程师**   | [@Cubik65536](https://github.com/Cubik65536) |
+
+## 加入我们
+
+目前我们仍未有招人的计划，请持续关注！
+
+## 赞助我们
+
+[赞助 CraftStar 工作室](https://afdian.net/@CraftStar_Studio)
+
+[赞助 CraftStar 工作室旗下的 NRE-Craft 服务器](https://afdian.net/@NRE-Craft)
