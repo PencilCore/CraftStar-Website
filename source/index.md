@@ -9,7 +9,7 @@ breadcrumb: false
 header: false
 ---
 
-{% about%}
+{% about %}
 
 <img align="center" alt="hello" src="hello.png"></br>
 
@@ -29,11 +29,11 @@ CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
 
 ## 工作室成员介绍
 
-| 职位             | 负责人                                       |
-| :--------------- | :------------------------------------------- |
-| **工作室室长**   | [@Jack233\_](https://github.com/Jack233XD)   |
-| **工作室副室长** | @XO 小圣                                     |
-| **技术总监&首席工程师**   | [@Cubik65536](https://github.com/Cubik65536) |
+| 职位                    | 负责人                                       |
+| :---------------------- | :------------------------------------------- |
+| **工作室室长**          | [@Jack233\_](https://github.com/Jack233XD)   |
+| **工作室副室长**        | @XO小圣                                      |
+| **技术总监&首席工程师** | [@Cubik65536](https://github.com/Cubik65536) |
 
 ## 加入我们
 
