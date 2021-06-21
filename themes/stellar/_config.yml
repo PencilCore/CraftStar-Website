@@ -41,7 +41,7 @@ sidebar:
     # welcome
     welcome:
       layout: markdown
-      title: CraftStar工作室是一个全面发展的Minecraft工作室</br>软件开发，红石，建筑等领域，我们都会涉及到...
+      title: Hello World!
       content:
         - "祝你浏览愉快！"
 
