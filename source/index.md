@@ -15,6 +15,8 @@ header: false
 
 **<font size="5.6em">CraftStar 工作室</font>** </br> <font size="3.5em">一个全面发展的 Minecraft 工作室</font>
 
+[CraftStar Studio官方交流群（QQ）](https://qm.qq.com/cgi-bin/qm/qr?k=9HxNOGLgzYWmSPdsoou2swjzOrq5gxzZ&authKey=4UbRMdPPeNUg5fT+vcLZiIGPT0mWRFAL2EjE3DNbmedcrFh3gMA6zZXIRJRw5HjX&noverify=0)
+
 ---
 
 CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
