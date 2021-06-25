@@ -15,7 +15,7 @@ header: false
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
-{% navbar [博客](/blog/) [Wiki](/wiki/) %}
+{% navbar [书籍](https://book.craftstar.net) [博客](/blog/) [Wiki](/wiki/) %}
 
 {% about %}
 
