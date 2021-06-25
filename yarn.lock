@@ -498,6 +498,13 @@
   dependencies:
     "hexo-pagination" "1.0.0"
 
+"hexo-generator-author@^0.0.5":
+  "integrity" "sha1-pUDRo8T9Zu60mcWvLLodU5bIYig="
+  "resolved" "https://registry.npmjs.org/hexo-generator-author/-/hexo-generator-author-0.0.5.tgz"
+  "version" "0.0.5"
+  dependencies:
+    "hexo-pagination" "0.0.2"
+
 "hexo-generator-category@^1.0.0":
   "integrity" "sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ=="
   "resolved" "https://registry.npmjs.org/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz"
@@ -533,6 +540,13 @@
   "version" "2.0.0"
   dependencies:
     "chalk" "^4.0.0"
+
+"hexo-pagination@0.0.2":
+  "integrity" "sha1-jPRwx9sN5bGKOSanbesZQBXffys="
+  "resolved" "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-0.0.2.tgz"
+  "version" "0.0.2"
+  dependencies:
+    "utils-merge" "^1.0.0"
 
 "hexo-pagination@1.0.0":
   "integrity" "sha512-miEVFgxchPr2qNWxw0JWpJ9R/Yaf7HjHBZVjvCCcqfbsLyYtCvIfJDxcEwz1sDOC/fLzYPqNnhUI73uNxBHRSA=="
@@ -1211,7 +1225,7 @@
   "resolved" "https://registry.npmjs.org/urix/-/urix-0.1.0.tgz"
   "version" "0.1.0"
 
-"utils-merge@1.0.1":
+"utils-merge@^1.0.0", "utils-merge@1.0.1":
   "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
   "resolved" "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
