@@ -15,17 +15,17 @@ header: false
 </head> 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
+{% navbar [Wiki](/wiki/) %}
+
 {% about %}
 
 <img align="center" alt="hello" src="hello.png"></br>
 
 **<font size="5.6em">CraftStar 工作室</font>** </br> <font size="3.5em">一个全面发展的 Minecraft 工作室</font>
 
-<a href="https://github.com/CraftStarStudio"><i class="fa fa-github"></i> GitHub - CraftStar Studio</a>
+<a href="https://cdn.jsdelivr.net/gh/CraftStarStudio/CraftStar-Website@master/source/hello.png"><i class="fa fa-github"></i> GitHub - CraftStar Studio</a>
 
 <a href="https://qm.qq.com/cgi-bin/qm/qr?k=9HxNOGLgzYWmSPdsoou2swjzOrq5gxzZ&authKey=4UbRMdPPeNUg5fT+vcLZiIGPT0mWRFAL2EjE3DNbmedcrFh3gMA6zZXIRJRw5HjX&noverify=0"><i class="fa fa-qq"></i> CraftStar Studio 官方交流群</a>
-
-{% navbar [Wiki](/wiki/) %}
 
 ---
 
