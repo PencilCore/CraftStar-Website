@@ -18,7 +18,7 @@ description: CraftStudio软件本地化以及翻译小组面对翻译项目时�
 
 ## 分工
 
-目前 CraftStudio 软件本地化以及翻译小组组长为 [`@WUTONK`](https://github.com/WUTONK)，组长拥有分配团队成员，决定项目优先级的权利。同时，组长应对项目完成质量负责。
+目前 CraftStudio 软件本地化以及翻译小组组长为 [`@PencilCore`](https://github.com/PencilCore)，组长拥有分配团队成员，决定项目优先级的权利。同时，组长应对项目完成质量负责。
 
 所有翻译小组成员均需要以下能力：
 
