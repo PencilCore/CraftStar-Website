@@ -59,15 +59,15 @@ CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
 
 |                                              | 职位                   |联系方式
 | :------------------------------------------- | :--------------------- | :-------------------------------------------------- |
-| [@Jack233\_](https://github.com/Jack233XD)   | **工作室室长**          |                                                     |
-| @XO小圣                                      | **工作室副室长**        | [📫 xoxiaosheng@163.com](mailto:xoxiaosheng@163.com) |
-| [@Cubik65536](https://github.com/Cubik65536) | **技术总监&首席工程师** | [📫 cubik65536@cubik65536.top](mailto:cubik65536@cubik65536.top) |
+| [@Jack233\_](https://github.com/Jack233XD)   | **工作室室长**          | [📫 Jack233_@craftstar.net](mailto:Jack233_@craftstar.net) |
+| @XO小圣                                      | **工作室副室长**        | [📫 xoxiaosheng@craftstar.net](mailto:xoxiaosheng@craftstar.net) |
+| [@Cubik65536](https://github.com/Cubik65536) | **技术总监&首席工程师** | [📫 cubik65536@craftstar.net](mailto:cubik65536@craftstar.net) |
 
 ### 组长/部长
 
-|                                              | 职位                        |
-| :------------------------------------------- | :------------------------- |
-| [@PencilCore](https://github.com/PencilCore) | **软件本地化及翻译小组组长** |
+|                                              | 职位                        | 联系方式
+| :------------------------------------------- | :------------------------- | :-------------------------------------------------- |
+| [@PencilCore](https://github.com/PencilCore) | **软件本地化及翻译小组组长** | [📫 pencilcore@craftstar.net](mailto:pencilcore@craftstar.net) |
 
 ## 加入我们
 
