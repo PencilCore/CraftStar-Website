@@ -95,7 +95,7 @@ CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
 
 ### 红石部门
 - 红石玩家
-  - 要求：能够独立研发红石科技或能够制作原创实用电路
+  - 要求：能够独立研发红石科技或能够制作原创实用电路的人员。
 
 如有兴趣请联系副室长XO小圣：[📫 xoxiaosheng@craftstar.net](mailto:xoxiaosheng@craftstar.net)
 
@@ -103,7 +103,15 @@ CraftStar 工作室成立于 2019 年 11 月 19 日，创始人是 Jack233\_
 - 建筑玩家
   - 要求：能够建造原创建筑或为红石机器进行美化
   - 拥有以下能力可以加分：
-    - 地形改造
+  - 复原中国古建筑
+
+如有兴趣请联系副室长XO小圣：[📫 xoxiaosheng@craftstar.net](mailto:xoxiaosheng@craftstar.net)
+
+### 地形部门
+- 建筑玩家
+  - 要求：能够复原各种现实中的大山大河，或者是有自己设计的地形作品
+  - 拥有以下能力可以加分：
+    - 复原各种有关地形的大型建筑
 
 如有兴趣请联系副室长XO小圣：[📫 xoxiaosheng@craftstar.net](mailto:xoxiaosheng@craftstar.net)
 
