@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang='zh-CN'>
+
+<head>
+  <meta name="generator" content="Hexo 5.4.0">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>CraftStudio翻译标准工作流程：CraftStudio翻译标准工作流程 - CraftStar工作室</title>
+
+  
+    <meta name="description" content="CraftStudio软件本地化以及翻译小组面对翻译项目时的标准工作流程">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CraftStar工作室">
+<meta property="og:url" content="https://craftstar.net/wiki/CraftStudio%E7%BF%BB%E8%AF%91%E6%A0%87%E5%87%86%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/">
+<meta property="og:site_name" content="CraftStar工作室">
+<meta property="og:description" content="CraftStudio软件本地化以及翻译小组面对翻译项目时的标准工作流程">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-07-08T12:58:05.895Z">
+<meta property="article:modified_time" content="2021-07-08T12:58:05.895Z">
+<meta property="article:author" content="CraftStar Studio">
+<meta name="twitter:card" content="summary">
+  
+  
+
+  <!-- feed -->
+  
+
+  
+    
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/.css" src="/.js">
+
+  
+
+  
+</head>
+
+<body>
+  
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left'>
+    
+
+<header class='header'>
+  <div class='logo-wrap'>
+  
+  
+    <a class='title' href='/'>
+      CraftStar工作室
+    </a>
+  
+</div>
+
+  <nav class="menu dis-select"></nav>
+</header>
+
+<div class='widgets'>
+  
+    
+      
+      
+<div class="widget-wrap" id="toc"><div class="widget-header h4 dis-select"><span class="name">CraftStudio翻译标准工作流程</span></div><div class="widget-body fs14 wiki"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%86%E5%B7%A5"><span class="toc-text">分工</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%90%E5%91%98%E5%AE%A1%E6%A0%B8%E6%B5%81%E7%A8%8B"><span class="toc-text">成员审核流程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B1%E7%8E%B0%E6%9C%89%E6%88%90%E5%91%98%E9%82%80%E8%AF%B7"><span class="toc-text">由现有成员邀请</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%B1%E7%BB%84%E9%95%BF%E9%82%80%E8%AF%B7"><span class="toc-text">由组长邀请</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%B9%E7%9B%AE%E6%B5%81%E7%A8%8B"><span class="toc-text">项目流程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AB%8B%E9%A1%B9"><span class="toc-text">立项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%90%84%E6%88%90%E5%91%98%E5%BC%80%E5%A7%8B%E5%B7%A5%E4%BD%9C"><span class="toc-text">各成员开始工作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Commit"><span class="toc-text">Commit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Push"><span class="toc-text">Push</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E4%BA%A4PR"><span class="toc-text">提交PR</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A0%A1%E7%A8%BF-%E6%A0%A1%E5%AF%B9"><span class="toc-text">校稿&#x2F;校对</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A0%A1%E7%A8%BF-%E6%A0%A1%E5%AF%B9%E4%BA%BA%E5%91%98"><span class="toc-text">校稿&#x2F;校对人员</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BF%BB%E8%AF%91%E8%80%85"><span class="toc-text">翻译者</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%84%E9%95%BF"><span class="toc-text">组长</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%83%A8%E9%97%A8%E8%B4%9F%E8%B4%A3%E4%BA%BA"><span class="toc-text">部门负责人</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Merge"><span class="toc-text">Merge</span></a></li></ol></li></ol></div></div></div>
+
+    
+  
+    
+      
+      
+  
+    
+    
+
+
+    
+  
+</div>
+
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+  
+  
+  <div class='bread-nav fs12'>
+    
+          
+            <div id='breadcrumb' >
+              <a class='cap breadcrumb' href='/'>
+                主页
+              </a>
+              <span class="sep"></span>
+              
+                  <a class='cap breadcrumb' href='/wiki/'>
+                    Wiki
+                  </a>
+                  
+                    
+                        
+                          
+                          
+                              <span class="sep"></span>
+                              <a class='cap breadcrumb' href='/wiki/CraftStudio%E7%BF%BB%E8%AF%91%E6%A0%87%E5%87%86%E5%B7%A5%E4%BD%9C%E6%B5%81%E7%A8%8B/'>
+                                CraftStudio翻译标准工作流程
+                              </a>
+                              
+            </div>
+            <div id='post-meta'>
+              更新于&nbsp;<time datetime='2021-07-08T12:58:05.895Z'>
+                  2021-07-08
+                </time>
+            </div>
+            
+  </div>
+  
+  <article class='content md wiki'>
+  
+  <p><strong>作者：Cubik65536</strong></p>
+<span id="more"></span>
+
+<p><strong>所有CraftStudio软件本地化以及翻译小组成员必须熟悉该文内容</strong></p>
+<p><strong>此文档不适用于软件本地化项目</strong></p>
+<p><strong>除非你<em>明确</em>表达你不希望，否则所有参与者的名称都会被列在封面或者开头</strong></p>
+<h2 id="分工"><a href="#分工" class="headerlink" title="分工"></a>分工</h2><p>目前 CraftStudio 软件本地化以及翻译小组组长为 <a target="_blank" rel="noopener" href="https://github.com/PencilCore"><code>@PencilCore</code></a>，组长拥有分配团队成员，决定项目优先级的权利。同时，组长应对项目完成质量负责。</p>
+<p>所有翻译小组成员均需要以下能力：</p>
+<ul>
+<li>达标的英语能力（我们不求翻译的跟出版社一样，但是我们要保证看到的人都能看懂）</li>
+<li>熟悉 Markdown 语法</li>
+<li>熟悉 Git 以及 GitHub 的使用（可以查看<a target="_blank" rel="noopener" href="https://xaoxuu.com/wiki/git/">本文</a>取得基本知识）</li>
+</ul>
+<p>一个翻译项目需要以下成员：</p>
+<ul>
+<li>翻译者</li>
+<li>校稿/校对</li>
+<li>审核</li>
+</ul>
+<dl><dt>注意：</dt><dd>一个成员可以同时担任多个职位</dd></dl><h3 id="成员审核流程"><a href="#成员审核流程" class="headerlink" title="成员审核流程"></a>成员审核流程</h3><h4 id="由现有成员邀请"><a href="#由现有成员邀请" class="headerlink" title="由现有成员邀请"></a>由现有成员邀请</h4><ol>
+<li>将信息提交给组长，组长预先进行审核（仅通过提交的信息）</li>
+<li>组长认为合格后，将资料提交给管理层</li>
+<li>管理层使用（有可能是正在制作的）项目内容进行翻译审核，通过后加入小组</li>
+</ol>
+<h4 id="由组长邀请"><a href="#由组长邀请" class="headerlink" title="由组长邀请"></a>由组长邀请</h4><p>与上文相似，但只需要组长直接提交资料随后进入第三步</p>
+<h2 id="项目流程"><a href="#项目流程" class="headerlink" title="项目流程"></a>项目流程</h2><p>推荐使用的软件（本次实例使用这些软件作为示例）</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://desktop.github.com/">GitHub Desktop</a> - GitHub 客户端</li>
+<li><a target="_blank" rel="noopener" href="https://typora.io/">Typora</a> - Markdown 编辑器</li>
+</ul>
+<h3 id="立项"><a href="#立项" class="headerlink" title="立项"></a>立项</h3><p>管理层成员与组长经过讨论决定翻译的项目，组长开始分配人手，决定每个成员的职位，负责（翻译/校对）的部分</p>
+<blockquote>
+<p>如果人手不够组长需要让成员身兼多职，尽量不要让翻译/校对的部分一样，让成员互相校对</p>
+</blockquote>
+<h3 id="各成员开始工作"><a href="#各成员开始工作" class="headerlink" title="各成员开始工作"></a>各成员开始工作</h3><p><strong>此文档以《使用 LWJGL3 开发 3D 游戏（3D Game Development with LWJGL 3）》一书的翻译工作为例</strong></p>
+<ol>
+<li>成员前往<a target="_blank" rel="noopener" href="https://github.com/CraftStarStudio">工作室的 GitHub 仓库</a>，以此次为例，仓库链接为：<a target="_blank" rel="noopener" href="https://github.com/CraftStarStudio/lwjglbook-bookcontents-zh_CN">https://github.com/CraftStarStudio/lwjglbook-bookcontents-zh_CN</a></li>
+<li>点击右上角的 <code>Fork</code> 来 Fork（分支）该仓库</li>
+<li>你应该会被跳转至自己的仓库，这时候你的屏幕右上角应该显示：<blockquote>
+<p><code>你的 GitHub 用户名</code> / <code>仓库名</code><br><strong>forked</strong> from CraftStarStudio / <code>仓库名</code></p>
+</blockquote>
+</li>
+<li>点击绿色的 <code>Code</code>，选择 <code>Open with GitHub Desktop</code>，依照你的浏览器/操作系统，浏览器会提示你是否要开启 GitHub Desktop，选择 <code>是</code></li>
+<li>GitHub Desktop 启动后，会有一个标题为 <code>Clone a Repository</code> 弹窗，</br>你可以更改 <code>Local Path</code> 来更改保存的地方，然后点击蓝色的 <code>Clone</code></li>
+<li>等待一段时间，你的电脑正在下载文件，时长多长基本上由你的网络情况决定，如果有弹窗 <code>How are you planning to use this fork?</code>，</br>选择 <code>To contribute to the parent project</code> 然后选择 <code>Continue</code></li>
+<li>打开你保存的文件夹（<code>Local Path</code>），GitHub Desktop 右侧会有 <code>Show in Finder</code> (macOS) 或者 <code>Show in Explorer</code>（Windows）来让你直接打开文件夹</li>
+<li>编辑文件，进行翻译</li>
+</ol>
+<h3 id="Commit"><a href="#Commit" class="headerlink" title="Commit"></a>Commit</h3><blockquote>
+<p>当管理层让你 <code>Commit</code> 的时候不要说 <code>这是什么？</code> 了！</p>
+</blockquote>
+<p><strong>简单解释，这就是保存你的进度</strong></p>
+<p>编辑一个或者多个文件之后，进入 GitHub Desktop，在右下侧的 <code>Summary (required)</code> 处简单描述本次更改的内容（最好用英语），然后点击 <code>Commit to master</code></p>
+<blockquote>
+<p>注意，此处的 master 可能会变，但是通常为 <code>master</code> 或者 <code>main</code></p>
+</blockquote>
+<blockquote>
+<p>如果你仅仅编辑了一个文件，此处的 <code>Summary (required)</code> 可能会变成<br><code>Update &lt;文件名&gt;</code>， <code>Add &lt;文件名&gt;</code>， <code>Remove &lt;文件名&gt;</code> 或者 <code>Rename &lt;文件名&gt;</code><br><strong>不要</strong>这么留着！</p>
+</blockquote>
+<h3 id="Push"><a href="#Push" class="headerlink" title="Push"></a>Push</h3><blockquote>
+<p>当管理层让你 <code>Push</code> 的时候不要说 <code>这是什么？</code> 了！</p>
+</blockquote>
+<p><strong>简单解释，这就是让你把内容传到GitHub上</strong></p>
+<p>Commit之后，你的GitHub Desktop顶部最右侧会有一个 <code>Push origin</code>，点它即可，成功了之后它应该会变成 <code>Fetch origin</code></p>
+<h3 id="提交PR"><a href="#提交PR" class="headerlink" title="提交PR"></a>提交PR</h3><blockquote>
+<p>当管理层让你 <code>提交PR</code>，<code>开PR</code>，<code>提交Pull request</code> 的时候不要说 <code>这是什么？</code> 了！</p>
+</blockquote>
+<p><strong>简单解释，这就是让你把内容提交到工作室仓库里，让负责审核的人可以进行审核，如果没有问题就会把你的更改加入工作室仓库</strong></p>
+<ol>
+<li><p>打开GitHub（右上角写着</p>
+<blockquote>
+<p><code>你的 GitHub 用户名</code> / <code>仓库名</code><br><strong>forked</strong> from CraftStarStudio / <code>仓库名</code></p>
+</blockquote>
+<p>的仓库）</p>
+</li>
+<li><p>点击上方的 <code>Contribute</code> （一般应该在 <code>This branch is 1 commit ahead of CraftStarStudio:master.</code> 的右侧。注意！此处的数字可能会变！这里也有可能出现behind！），点击 <code>Open pull resuqest</code></p>
+</li>
+<li><p>你应该进入了一个标题为 <code>Comparing changes</code> 的界面，右上角写的是 CraftStarStudio / <code>仓库名</code>，点击 <code>Create pull request</code></p>
+</li>
+<li><p>在 <code>Title</code> 处简单描述你做完的工作，必要时使用 <code>Leave a comment</code>（可以使用中文）</p>
+</li>
+<li><p>在右侧的 <code>Reviewer</code> 处选择你的校稿/校对人员（最好不超过3个）， <code>Assignees</code>处选择你自己，校稿/校对人员，<code>Labels</code> 处选择 <code>Localization</code></p>
+</li>
+<li><p>点击 <code>Create pull request</code>，你的工作告一段落了</p>
+</li>
+</ol>
+<h3 id="校稿-校对"><a href="#校稿-校对" class="headerlink" title="校稿/校对"></a>校稿/校对</h3><h4 id="校稿-校对人员"><a href="#校稿-校对人员" class="headerlink" title="校稿/校对人员"></a>校稿/校对人员</h4><p>如果你是校稿/校对人员而且你收到了要求你Review的通知，进入Pull request界面，开始你的工作</p>
+<ol>
+<li>点击任何一次Commit，这时你应该看到编辑前后的差异</li>
+<li>点击右上角的 <code>Changes from 1 commit</code>，将它改成 <code>Changes from all commits</code> (点击 <code>Show all changes</code>)</li>
+<li>如果你需要添加建议，将鼠标放在需要添加建议的地方，然后点击左侧蓝色的 <code>+</code></li>
+<li>输入你的建议，你可以填写包括但不限于：翻译建议，纠错等内容，然后点击 <code>Add a review comment</code> （如果是第一条的话请点击 <code>Start a review</code></li>
+<li>完成之后，在右上角点击 <code>Finish your review</code> （如果没有任何建议的话，该按钮显示 <code>Review changes</code>），然后在 <code>Leave a comment</code> 处提出总体建议</li>
+<li>在下方选择 <code>Approve</code>（你觉得没有问题）或者 <code>Request changes</code>（你觉得需要更改），然后点击 <code>Submit reivew</code> 提交</li>
+<li>当所有校稿/校对人员都提交Approve之后，在 <code>Reviewer</code> 和 <code>Assignees</code> 处添加组长，组长查看下面组长部分的工作流程</li>
+</ol>
+<h4 id="翻译者"><a href="#翻译者" class="headerlink" title="翻译者"></a>翻译者</h4><p>如果你是翻译者而且你收到了组长或校稿/校对人员，甚至是部门负责人的 <code>Request changes</code>时，对你的翻译进行更改，可以在群内或者在GitHub处讨论，更改完成后重新Commit并Push（你不需要重新开PR了）</p>
+<h4 id="组长"><a href="#组长" class="headerlink" title="组长"></a>组长</h4><p>如果你是组长而且所有校稿/校对人员都提交了Approve，进入Pull request界面，开始你的工作</p>
+<ol>
+<li>做一次最终审核，审核流程依照校稿/校对人员流程（如果你兼任校稿/校对人员而且提交了Approve，则跳过这一步）</li>
+<li>当你和所有校稿/校对人员均提交Approve之后在 <code>Reviewer</code> 和 <code>Assignees</code> 处添加部门负责人</li>
+</ol>
+<h4 id="部门负责人"><a href="#部门负责人" class="headerlink" title="部门负责人"></a>部门负责人</h4><p>如果你是部门负责人<del>（不，你不是）</del>，而且组长以及所有校稿/校对人员都提交了Approve，进入Pull request界面，开始你的工作</p>
+<ol>
+<li>做一次最终审核，审核流程依照校稿/校对人员流程</li>
+<li>当你，组长和所有校稿/校对人员均提交Approve后，进入Merge流程</li>
+</ol>
+<h3 id="Merge"><a href="#Merge" class="headerlink" title="Merge"></a>Merge</h3><p><strong>这部分只能由部门负责人操作，故暂不列出</strong></p>
+
+  
+
+
+  </article>
+  
+
+
+  
+
+
+
+
+      
+<footer class="page-footer fs12"><hr><div><p>Copyright © 2021-2021 <a href="https://craftstar.net/">@CraftStar Studio</a>. 保留所有权利。</p>
+<p>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
+<p>本站由 <a href="https://craftstar.net/">@CraftStar Studio</a> 创建，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0">Stellar</a> 作为主题。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script')
+      script.src = src
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0';
+  stellar.config = {
+    date_suffix: {
+      just: '刚刚',
+      min: '分钟前',
+      hour: '小时前',
+      day: '天前',
+      month: '个月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
+    sitesjs: '/js/plugins/sites.js',
+    friendsjs: '/js/plugins/friends.js',
+  };
+
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper/swiper-bundle.min.css","js":"https://unpkg.com/swiper/swiper-bundle.min.js"});
+  }
+  if ('' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="/js/main.js" async></script>
+<script href="/.css" src="/.js"></script>
+
+
+
+<!-- optional -->
+
+
+
+<!-- inject -->
+
+
+  </div>
+</body>
+</html>
